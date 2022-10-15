@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:elevation="30dp"
+        app:cardElevation="15dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Chronometer
+            android:id="@+id/savedChronometer"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:textColor="#5c4fca"></Chronometer>
+
+        <TextView
+            android:id="@+id/dates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="denemeee"
+            android:textColor="#706D6D"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="13dp"></TextView>
+
+        <ImageView
+            android:id="@+id/removeButton"
+            android:layout_width="50dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="311dp"
+            android:layout_marginTop="0dp"
+            android:background="#F30303"
+            app:srcCompat="@drawable/bin"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
